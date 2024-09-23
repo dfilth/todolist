@@ -1,0 +1,13 @@
+[flake8]
+ignore = E226,E302,E41
+max-line-length = 79
+exclude =
+    .git
+    .env,
+    migrations,
+    static,
+    node_modules,
+    .venv,
+    __pycache__,
+    settings.py
+    tests,

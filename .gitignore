@@ -1,0 +1,33 @@
+# File types
+*.dump
+*.gz
+*.log
+*.mo
+*.pyc
+*.sql
+*.swn
+*.swo
+*.swp
+db.sqlite3
+
+
+# OS files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*~
+
+# Folders
+/app/static/css/*.css
+/node_modules
+/app/static/node_modules/
+/static
+/uploads
+.venv
+
+# EDITOR
+.idea/*
+.vscode/*
+.editorconfig
+

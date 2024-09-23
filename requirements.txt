@@ -1,0 +1,12 @@
+Django==5.1.1
+djangorestframework==3.15.2
+black==24.8.0
+uvicorn==0.30.6
+typer==0.12.5
+graphql-core==3.2.4
+strawberry-graphql==0.242.0
+strawberry-graphql-django==0.47.2
+pytest==8.3.3
+pytest-django==4.9.0
+flake8==7.1.1
+drf-spectacular==0.27.2

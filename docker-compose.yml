@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: todolist
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DJANGO_SETTINGS_MODULE=todolist.settings
+    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+  migrate:
+    build: .
+    image: todolist
+    command: [ "python", "manage.py", "migrate", "--noinput" ]
+    volumes:
+      - .:/app
